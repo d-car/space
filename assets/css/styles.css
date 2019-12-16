@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    font: normal 16px Arial, Helvetica, sans-serif;
+    color: #333;
+
+}
+
+
+#particles-js {
+    background-image: radial-gradient(circle, #7339e0, #1423d3, #000000);
+    height: 400px;
+    
+}
+
+#searchForm {
+    background:#fff;
+    opacity: 0.9;
+    padding: 2em;
+    border: #ccc 2px solid;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+
+#searchForm input[type='text'] {
+    padding: 7px;
+    margin-bottom: 10px;
+    border: 1px #ccc solid;
+}

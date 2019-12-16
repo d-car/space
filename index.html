@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width,initial-scale=1.0'>
+  <meta http-quiv='X-UA-Compatible' content='ie=edge'>
+  <title>Space</title>
+  <link rel='stylesheet' type='text/css' href='assets/css/styles.css'>
+  <script src=
+  "https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" 
+  crossorigin="anonymous">
+  </script>
+
+</head>
+
+<body>
+
+  <div id='particles-js'>
+    <div>
+      <form id='searchForm'>
+        <div>
+          <label for='searchForm'>Search</label>
+          <br>
+          <input type='text' placeholder='Search' id='searchInput'>
+        </div>
+        <input type='submit' value='Search' id='searchBtn'>
+      </form>
+    </div>
+
+  </div>
+
+
+
+  <script 
+  src='https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js'>
+  </script>
+
+  <script>
+    /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+    particlesJS.load('particles-js', 'assets/particles.json', function () {
+      console.log('callback - particles.js config loaded');
+    });
+  </script>
+  <script src='assets/js/scripts.js'></script>
+</body>
